@@ -360,7 +360,8 @@ select {
     text-align: center;
     background-color: #1D1C20;
     padding-top: 100px;
-    padding-bottom: 60px;
+    padding-bottom: 280px;
+    position: relative;
 }
 
 .hero__title {
@@ -533,7 +534,12 @@ select {
         " box4 box5 box5 box5 box5 box6 "
     ;
     gap: 15px;
-
+    background-color: #161616;
+    padding: 10px;
+    border-radius: 20px;
+    position: absolute;
+    top: 72%;
+    left: 7.5%;
 }
 
 .box {
@@ -671,4 +677,7 @@ hr {
     height: 100%;
     object-fit: cover;
     margin-left: 13px;
+}
+.boost{
+    padding-top: 240px;
 }
