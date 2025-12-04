@@ -653,7 +653,7 @@ hr {
 
 .balance__m {
     display: flex;
-    gap: 60px;
+    gap: 120px;
 }
 
 .balance__btn {
@@ -678,6 +678,14 @@ hr {
     object-fit: cover;
     margin-left: 13px;
 }
-.boost{
+
+.boost {
     padding-top: 240px;
+}
+
+.box:nth-child(2)>.balance__m{
+    gap: 40px;
+}
+.box:nth-child(3)>.balance__m{
+    gap: 60px;
 }
